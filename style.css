@@ -1,0 +1,332 @@
+
+body{
+    font-family: 'Alegreya', serif;
+    margin: 0;
+    word-spacing: 0;
+}
+
+p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    color: #686868;
+    line-height: 32px;
+}
+h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: rgb(48, 48, 48);
+}
+.clear-fix{
+    clear: both;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+/* Start of landingBage */
+
+.landingBage{
+    height: 100vh;
+    background-image: url("images/drew-coffman-1872.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.92);
+}
+.landingBage .layer{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* End of landingBage */
+
+
+/* Start of nav */
+.landingBage .nav{
+    height: 90px;
+    padding-top: 15px;
+}
+.landingBage .nav img{
+    width: 177px;
+    height: 48px;
+}
+.landingBage .nav ul{
+    list-style: none;
+    float: right;
+    
+}
+.landingBage .nav li{
+    display: inline-block;
+    
+}
+.landingBage .nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+/* End of nav */
+
+
+/* Start of home */
+.landingBage .home{
+    text-align: center;
+    width: 710px;
+    margin: 120px auto 0px auto;
+}
+.landingBage .home p{
+    font-size: 24px;
+    
+    color: rgba(255, 255, 255, 0.92);
+    
+}
+
+.landingBage h1{
+    font-size: 76px;
+    font-weight: 400;
+    margin: 0px auto ;
+    
+}
+.landingBage .home .btn {
+    padding: 15px 28px;
+    margin-right: 12px;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+.landingBage .home .btn-more{
+    background-color: #8E7754;
+    border: 2px solid #8E7754;
+}
+.landingBage .home .btn-contact{
+    background-color:transparent;
+    border: 2px solid white;
+}
+/* End of home */
+
+
+
+/* Start of info */
+
+.info{
+    
+    background-color: white;
+    margin-top: 120 ;
+    margin-bottom: 50px;
+    
+}
+.info img{
+    float: left;
+    width: 565.2px;
+    height: 536.94px;
+    margin-right: 65px;
+    
+}
+
+.info .details h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: rgb(48, 48, 48);
+    margin-bottom: 45px;
+    padding-top: 50px;
+    
+}
+.info .details p{
+    color: #686868;
+    font-size: 17px;
+    line-height: 32px;
+}
+.info .details-list ul{
+    list-style: none;
+}
+.info .details-list ul i{
+    text-align: center;
+    width: 44px;
+    height: 44px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 100%;
+    line-height: 44px;
+    font-size: 20px;
+    color: #8E7754;
+    margin-bottom: 22px;
+    margin-right: 10;
+}
+.info .details-list ul span {
+    font-size: 17px;
+    color:  rgb(104, 104, 104);
+}
+/* End of info */
+
+
+/* Start of location */
+.location{
+    background-color: #F8F8F8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.location .loc-det{
+    float: left;
+    width: 55%;
+    padding-top: 70px;
+}
+
+.location .loc-det p{
+    padding-right: 60px;
+}
+.location img{
+    float: right;
+    width: 45%;
+}
+/* End of location */
+
+
+/* start of our-baking */
+
+.our-baking .itro{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+.our-baking .item{
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+}
+.our-baking .item img{
+    width: 378px;
+    height: 315px;
+}
+.our-baking .item h2{
+    font-size: 22px;
+}
+.our-baking .item p{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.our-baking{
+    padding-bottom: 50px;
+}
+
+/* End of our-baking */
+/* Start of contact */
+
+.contact{
+    background-color: #F8F8F8;
+    overflow: hidden;
+    
+}
+.contact .container{
+    margin:90px auto;
+}
+.contact .contact-info{
+    width: 50%;
+    float: left;
+}
+.contact .contact-info p{
+    padding-right: 80px;
+    padding-bottom: 10px;
+}
+.contact .contact-info ul{
+    list-style: none;
+    padding-left: 0;
+}
+.contact .contact-info ul i{
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    background-color: #8E7754;
+    border-radius: 100%;
+    line-height: 36px;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 22px;
+    margin-right: 10px;
+    
+}
+.contact .contact-info ul span {
+    font-size: 17px;
+    color:  rgb(104, 104, 104);
+}
+/* End of contact */
+
+
+/* Start of Footer */
+
+.footer{
+    background-color: #403D38;
+    color: #969696;
+    font-size: 16px;
+}
+.footer .sec{
+    float: left;
+    width: 25%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer h4{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0px 0px 25px;
+}
+.footer p {
+    color: #969696;
+    font-size: 16px;
+    padding-right: 20px;
+    margin: 0px 0px 20px;
+}
+.footer  ul{
+    list-style: none ;
+    padding: 0 20px 0 0;
+    margin: 0;
+
+}
+.footer  ul li{
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.footer  ul li i {
+    margin-right: 5px;
+    
+}
+.footer .contact-details{
+    background-image: url("images/contact-details-map.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer-botom{
+    background-color: #353330;
+    color: #797979;
+    padding: 50px 0px 40px;
+    font-size: 14px;
+    text-align: center;
+}
+.footer-botom .social-icons i{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 8px;
+    background-color: #484540;
+    /* background-color: rgba(0, 0, 0, 0.08); */
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+/* End of Footer */
+
